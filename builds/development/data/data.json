@@ -1,0 +1,176 @@
+{
+  "paths": [{
+    "id" : "1",
+    "title" : "Become a Full-Stack Web Developer",
+    "courses" : [{
+        "id" : "1",
+        "link" : "https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html",
+        "title" : "Programming Foundations: Fundamentals",
+        "author" : "Simon Allardice",
+        "authorimage" : "21_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Simon-Allardice/21-1.html",
+        "introduction" : "<p>This course provides the core knowledge to begin programming in any language. Simon Allardice uses JavaScript to explore the core syntax of a programming language, and shows how to write and execute your first application and understand what's going on under the hood. The course covers creating small programs to explore conditions, loops, variables, and expressions; working with different kinds of data and seeing how they affect memory; writing modular code; and how to debug, all using different approaches to constructing software applications.</p><p>Finally, the course compares how code is written in several different languages, the libraries and frameworks that have grown around them, and the reasons to choose each one.</p>",
+        "certificate" : "ProgrammingFoundations-Fundamentals_CertificateOfCompletion.pdf",
+        "topics" : ["Writing source code","Understanding compiled and interpreted languages","Requesting input","Working with numbers, characters, strings, and operators","Writing conditional code","Making the code modular","Writing loops","Finding patterns in strings","Working with arrays and collections","Adopting a programming style","Reading and writing to various locations","Debugging","Managing memory usage","Learning about other languages"
+        ]           
+    },{
+        "id" : "2",
+        "link" : "https://www.lynda.com/Web-Development-tutorials/Becoming-Web-Developer-Full-Stack-vs-Front-End/483022-2.html",
+        "title" : "Web Development Foundations: Full-Stack vs Front-End",
+        "author" : "Ray Villalobos",
+        "authorimage" : "832401_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Ray-Villalobos/832401-1.html",
+        "introduction" : "<p>Do you want to become a web developer? Nowadays, web development isn't one job. There is a range of technologies and career options to explore. The core responsibilities are split two ways—between front-end developers who specialize in websites and applications and back-end developers who work with servers and databases—but you can also become a full-stack developer who oversees all aspects of a project. This course provides an overview of the different jobs available in web development, the tools and frameworks to focus on, and the skills each job entails. Senior staff author Ray Villalobos also provides tips on finding training, getting hired, and maximizing your earning potential in this lucrative and exciting field.</p>",
+        "certificate" : "WebDevelopmentFoundations-Full-StackvsFront-End_CertificateOfCompletion.pdf",
+        "topics" : ["Types of web developers","The role of HTML, CSS, and JavaScript","Servers and databases","Getting web development training","Choosing the right tools","Getting a job"]  
+    },{
+        "id" : "3",
+        "link" : "https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-1/569190-2.html",
+        "title" : "CSS Essential Training 1",
+        "author" : "Christina Truong",
+        "authorimage" : "7842227_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Christina-Truong/7842227-1.html",
+        "introduction" : "<p>CSS is a stylesheet language that allows you to control the appearance of your webpages. In this hands-on course—the first installment in an ongoing series—Christina Truong demonstrates the concepts that form the foundation of CSS, and explains how to use this language to add colors and other design elements to take your webpages beyond just black text on a white background. Christina covers selecting content, how the box model defines the spacing and sizing of page elements, styling text, and managing basic layouts. She also explores the tools needed to work with CSS, how to use selectors to target elements, and guidelines for page layouts with floats. Plus, at the end of the course, you'll walk away with an actual project—an online résumé page.</p>",
+        "certificate" : "CSSEssentialTraining1_CertificateOfCompletion.pdf",
+        "topics" : ["Creating a CSS file","Writing basic selectors","Setting properties","Using different typefaces and web-safe fonts","Understanding cascading and inheritance","Setting a font family, font size, text color, and more","Understanding the box model","Using the float property"]
+    },{
+        "id" : "4",
+        "link" : "https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-2/569189-2.html",
+        "title" : "CSS Essential Training 2",
+        "author" : "Christina Truong",
+        "authorimage" : "7842227_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Christina-Truong/7842227-1.html",
+        "introduction" : "<p>Once you're familiar with the basics of CSS, you're ready to expand your skillset and tackle more challenging concepts. In this course—the second installment in a series—bolster your existing CSS knowledge, and learn advanced concepts that can help you write more efficient code. Join Christina Truong as she explains how to work with a variety of advanced selectors, when to use the float, display, and position properties, and how to get started with the CSS browser developer tools and leverage them when debugging your front-end code. She also explains how to take a mobile-first approach to responsive web design. Plus, this course provides you with an opportunity to add more features to the online résumé project you started in CSS Essential Training 1.</p>",
+        "certificate" : ["CSSEssentialTraininReviewing simple selectors and attribute selectors","Using pseudo-class selectors and pseudo-element selectors","Reviewing the CSS box model","Adding a menu to your project","Using float, display, and position","Debugging CSS","Resetting stylesheets","Working with background images","Exploring a mobile-first approach for responsive web design","Creating flexible and fluid layouts"]
+    },{
+        "id" : "5",
+        "link" : "https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Databases/412845-2.html",
+        "title" : "Programming Foundations: Databases",
+        "author" : "Simon Allardice",
+        "authorimage" : "21_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Simon-Allardice/21-1.html",
+        "introduction" : "<p>Discover how a database can benefit both you and your architecture, whatever the programming language, operating system, or application type you use. In this course, explore options that range from personal desktop databases to large-scale geographically distributed database servers and classic relational databases to modern document-oriented systems and data warehouses—and learn how to choose the best solution for you. Author Simon Allardice covers key terminology and concepts, such as normalization, \"deadly embraces\" and \"dirty reads,\" ACID and CRUD, referential integrity, deadlocks, and rollbacks. The course also explores data modeling step by step through hands-on examples to design the best system for your data. Plus, learn to juggle the competing demands of storage, access, performance, and security—management tasks that are critical to your database's success.</p>",
+        "certificate" : "ProgrammingFoundations-Databases_CertificateOfCompletion.pdf",
+        "topics" : ["What is a database?","Why do you need a database?","Choosing primary keys","Identifying columns and selecting data types","Defining relationships: one-to-one, one-to-many, and many-to-many","Understanding normalization","Creating queries to create, insert, update, and delete data","Understanding indexing and stored procedures","Exploring your database options"]
+    },{
+    "id" : "6",
+    "link" : "https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html",
+    "title" : "JavaScript Essential Training",
+    "author" : "Morten Rand-Hendriksen",
+    "authorimage" : "725535_250x250_thumb.jpg",
+    "authorlink" : "https://www.lynda.com/Morten-Rand-Hendriksen/725535-1.html",
+    "introduction" : "<p>JavaScript is a scripting language of the web. As the web evolves from a static to a dynamic environment, technology focus is shifting from static markup and styling—frequently handled by content management systems or automated scripts—to dynamic interfaces and advanced interaction. Once seen as optional, JavaScript is now becoming an integral part of the web, infusing every layer with its script.</p><p>Through practical examples and mini-projects, this course helps you build your understanding of JavaScript piece by piece, from core principles like variables, data types, conditionals, and functions through advanced topics including loops, closures, and DOM scripting. Along the way, you will also be introduced to some ES6 and the basics of JavaScript libraries.</p>",
+    "certificate" : "JavaScriptEssentialTraining_CertificateOfCompletion.pdf",
+    "topics" : ["What is JavaScript?","Working with data","Using functions and objects","Working with JavaScript and the DOM","Changing DOM elements","Handling events","Working with loops","Making images responsive using markup","Troubleshooting code","Validating functionality","Minifying JavaScript"]
+    },{
+    "id" : "7",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "8",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "9",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "10",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "11",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "12",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "13",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "14",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "15",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "16",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    },{
+    "id" : "17",
+    "link" : "",
+    "title" : "",
+    "author" : "",
+    "authorimage" : "",
+    "authorlink" : "",
+    "introduction" : "",
+    "certificate" : "",
+    "topics" : [""]
+    }]
+}
