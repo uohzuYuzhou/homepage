@@ -10,7 +10,7 @@
         "authorimage" : "21_250x250_thumb.jpg",
         "authorlink" : "https://www.lynda.com/Simon-Allardice/21-1.html",
         "introduction" : "<p>This course provides the core knowledge to begin programming in any language. Simon Allardice uses JavaScript to explore the core syntax of a programming language, and shows how to write and execute your first application and understand what's going on under the hood. The course covers creating small programs to explore conditions, loops, variables, and expressions; working with different kinds of data and seeing how they affect memory; writing modular code; and how to debug, all using different approaches to constructing software applications.</p><p>Finally, the course compares how code is written in several different languages, the libraries and frameworks that have grown around them, and the reasons to choose each one.</p>",
-        "certificate" : "ProgrammingFoundations-Fundamentals_CertificateOfCompletion.pdf",
+        "certificate" : "ProgrammingFoundations-Fundamentals_CertificateOfCompletion",
         "topics" : ["Writing source code","Understanding compiled and interpreted languages","Requesting input","Working with numbers, characters, strings, and operators","Writing conditional code","Making the code modular","Writing loops","Finding patterns in strings","Working with arrays and collections","Adopting a programming style","Reading and writing to various locations","Debugging","Managing memory usage","Learning about other languages"
         ]           
     },{
@@ -21,7 +21,7 @@
         "authorimage" : "832401_250x250_thumb.jpg",
         "authorlink" : "https://www.lynda.com/Ray-Villalobos/832401-1.html",
         "introduction" : "<p>Do you want to become a web developer? Nowadays, web development isn't one job. There is a range of technologies and career options to explore. The core responsibilities are split two ways—between front-end developers who specialize in websites and applications and back-end developers who work with servers and databases—but you can also become a full-stack developer who oversees all aspects of a project. This course provides an overview of the different jobs available in web development, the tools and frameworks to focus on, and the skills each job entails. Senior staff author Ray Villalobos also provides tips on finding training, getting hired, and maximizing your earning potential in this lucrative and exciting field.</p>",
-        "certificate" : "WebDevelopmentFoundations-Full-StackvsFront-End_CertificateOfCompletion.pdf",
+        "certificate" : "WebDevelopmentFoundations-Full-StackvsFront-End_CertificateOfCompletion",
         "topics" : ["Types of web developers","The role of HTML, CSS, and JavaScript","Servers and databases","Getting web development training","Choosing the right tools","Getting a job"]  
     },{
         "id" : "3",
@@ -31,7 +31,7 @@
         "authorimage" : "7842227_250x250_thumb.jpg",
         "authorlink" : "https://www.lynda.com/Christina-Truong/7842227-1.html",
         "introduction" : "<p>CSS is a stylesheet language that allows you to control the appearance of your webpages. In this hands-on course—the first installment in an ongoing series—Christina Truong demonstrates the concepts that form the foundation of CSS, and explains how to use this language to add colors and other design elements to take your webpages beyond just black text on a white background. Christina covers selecting content, how the box model defines the spacing and sizing of page elements, styling text, and managing basic layouts. She also explores the tools needed to work with CSS, how to use selectors to target elements, and guidelines for page layouts with floats. Plus, at the end of the course, you'll walk away with an actual project—an online résumé page.</p>",
-        "certificate" : "CSSEssentialTraining1_CertificateOfCompletion.pdf",
+        "certificate" : "CSSEssentialTraining1_CertificateOfCompletion",
         "topics" : ["Creating a CSS file","Writing basic selectors","Setting properties","Using different typefaces and web-safe fonts","Understanding cascading and inheritance","Setting a font family, font size, text color, and more","Understanding the box model","Using the float property"]
     },{
         "id" : "4",
@@ -49,128 +49,590 @@
         "author" : "Simon Allardice",
         "authorimage" : "21_250x250_thumb.jpg",
         "authorlink" : "https://www.lynda.com/Simon-Allardice/21-1.html",
-        "introduction" : "<p>Discover how a database can benefit both you and your architecture, whatever the programming language, operating system, or application type you use. In this course, explore options that range from personal desktop databases to large-scale geographically distributed database servers and classic relational databases to modern document-oriented systems and data warehouses—and learn how to choose the best solution for you. Author Simon Allardice covers key terminology and concepts, such as normalization, \"deadly embraces\" and \"dirty reads,\" ACID and CRUD, referential integrity, deadlocks, and rollbacks. The course also explores data modeling step by step through hands-on examples to design the best system for your data. Plus, learn to juggle the competing demands of storage, access, performance, and security—management tasks that are critical to your database's success.</p>",
-        "certificate" : "ProgrammingFoundations-Databases_CertificateOfCompletion.pdf",
+        "introduction" : "<p>Discover how a database can benefit both you and your architecture, whatever the programming language, operating system, or application type you use. In this course, explore options that range from personal desktop databases to large-scale geographically distributed database servers and classic relational databases to modern document-oriented systems and data warehouses—and learn how to choose the best solution for you. Author Simon Allardice covers key terminology and concepts, such as normalization, &quot;deadly embraces&quot; and &quot;dirty reads&quot;, ACID and CRUD, referential integrity, deadlocks, and rollbacks. The course also explores data modeling step by step through hands-on examples to design the best system for your data. Plus, learn to juggle the competing demands of storage, access, performance, and security—management tasks that are critical to your database's success.</p>",
+        "certificate" : "ProgrammingFoundations-Databases_CertificateOfCompletion",
         "topics" : ["What is a database?","Why do you need a database?","Choosing primary keys","Identifying columns and selecting data types","Defining relationships: one-to-one, one-to-many, and many-to-many","Understanding normalization","Creating queries to create, insert, update, and delete data","Understanding indexing and stored procedures","Exploring your database options"]
     },{
-    "id" : "6",
-    "link" : "https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html",
-    "title" : "JavaScript Essential Training",
-    "author" : "Morten Rand-Hendriksen",
-    "authorimage" : "725535_250x250_thumb.jpg",
-    "authorlink" : "https://www.lynda.com/Morten-Rand-Hendriksen/725535-1.html",
-    "introduction" : "<p>JavaScript is a scripting language of the web. As the web evolves from a static to a dynamic environment, technology focus is shifting from static markup and styling—frequently handled by content management systems or automated scripts—to dynamic interfaces and advanced interaction. Once seen as optional, JavaScript is now becoming an integral part of the web, infusing every layer with its script.</p><p>Through practical examples and mini-projects, this course helps you build your understanding of JavaScript piece by piece, from core principles like variables, data types, conditionals, and functions through advanced topics including loops, closures, and DOM scripting. Along the way, you will also be introduced to some ES6 and the basics of JavaScript libraries.</p>",
-    "certificate" : "JavaScriptEssentialTraining_CertificateOfCompletion.pdf",
-    "topics" : ["What is JavaScript?","Working with data","Using functions and objects","Working with JavaScript and the DOM","Changing DOM elements","Handling events","Working with loops","Making images responsive using markup","Troubleshooting code","Validating functionality","Minifying JavaScript"]
+        "id" : "6",
+        "link" : "https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html",
+        "title" : "JavaScript Essential Training",
+        "author" : "Morten Rand-Hendriksen",
+        "authorimage" : "725535_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Morten-Rand-Hendriksen/725535-1.html",
+        "introduction" : "<p>JavaScript is a scripting language of the web. As the web evolves from a static to a dynamic environment, technology focus is shifting from static markup and styling—frequently handled by content management systems or automated scripts—to dynamic interfaces and advanced interaction. Once seen as optional, JavaScript is now becoming an integral part of the web, infusing every layer with its script.</p><p>Through practical examples and mini-projects, this course helps you build your understanding of JavaScript piece by piece, from core principles like variables, data types, conditionals, and functions through advanced topics including loops, closures, and DOM scripting. Along the way, you will also be introduced to some ES6 and the basics of JavaScript libraries.</p>",
+        "certificate" : "JavaScriptEssentialTraining_CertificateOfCompletion",
+        "topics" : ["What is JavaScript?","Working with data","Using functions and objects","Working with JavaScript and the DOM","Changing DOM elements","Handling events","Working with loops","Making images responsive using markup","Troubleshooting code","Validating functionality","Minifying JavaScript"]
     },{
-    "id" : "7",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "7",
+        "link" : "https://www.lynda.com/PHP-tutorials/Installing-Apache-MySQL-PHP/537759-2.html",
+        "title" : "Installing Apache, MySQL, and PHP",
+        "author" : "David Gassner",
+        "authorimage" : "310454_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/David-Powers/310454-1.html",
+        "introduction" : "<p>This course describes how to install and configure Apache HTTP Server, MySQL database server, and PHP, known collectively as the AMP stack, on a local development computer. David Gassner covers different installation approaches, including installing the components separately on Windows, macOS, and Linux and installing the prepackaged WampServer and MAMP bundles. Plus, learn how to troubleshoot port conflicts and other AMP-related issues.</p>",
+        "certificate" : "InstallingApacheMySQLandPHP_CertificateOfCompletion",
+        "topics" : ["Installing Apache on Windows","Working with PHP on Windows and macOS","Installing MySQL on Windows and macOS","Adding MySQL bin directory to the PATH","Starting and stopping Apache on macOS","Configuring personal site folders","Installing Apache, PHP, and MySQL on Linux","Installing and managing WampServer","Defining WampServer directory aliases","Installing MAMP on macOS","Configuring Apache and MySQL server ports on MAMP","Handling port conflicts on Windows and macOS","Configuring the Apache web document root"]
     },{
-    "id" : "8",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "8",
+        "link" : "https://www.lynda.com/PHP-tutorials/Introducing-PHP/418256-2.html",
+        "title" : "Learning PHP",
+        "author" : "David Powers",
+        "authorimage" : "310454_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/David-Powers/310454-1.html",
+        "introduction" : "<p>PHP is the most popular server-side language used to build dynamic websites, and though it is not especially difficult to use, nonprogrammers often find it intimidating. This introductory workshop from David Powers is designed to change that by teaching you PHP through a series of clear, focused, easy-to-follow lessons. After briefly explaining what PHP is and how it integrates with HTML, David introduces the features of the language. He covers variables, conditional statements, calculations, loops, and functions, as well as server-side includes and error handing, in a series of hands-on exercises. He then moves to a larger project that involves building a script to validate and email user input from an online form. By following along, you'll come to understand the value of creating reusable code, the importance of PHP security, and how to deal with multiple-choice form fields.</p>",
+        "certificate" : "LearningPHP_CertificateOfCompletion",
+        "topics" : ["Naming variables","Storing text as strings","Doing calculations with PHP","Using conditional statements to make decisions","Creating custom functions","Deciphering error messages","Emailing the contents of an online form","Dealing with multiple-choice form fields"]
     },{
-    "id" : "9",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "9",
+        "link" : "https://www.lynda.com/PHP-tutorials/Introducing-PHP/418256-2.html",
+        "title" : "PHP Essential Training",
+        "author" : "David Powers",
+        "authorimage" : "310454_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/David-Powers/310454-1.html",
+        "introduction" : "<p>PHP is the most popular server-side language used to build dynamic websites, and though it is not especially difficult to use, nonprogrammers often find it intimidating. This introductory workshop from David Powers is designed to change that by teaching you PHP through a series of clear, focused, easy-to-follow lessons. After briefly explaining what PHP is and how it integrates with HTML, David introduces the features of the language. He covers variables, conditional statements, calculations, loops, and functions, as well as server-side includes and error handing, in a series of hands-on exercises. He then moves to a larger project that involves building a script to validate and email user input from an online form. By following along, you'll come to understand the value of creating reusable code, the importance of PHP security, and how to deal with multiple-choice form fields.</p>",
+        "certificate" : "LearningPHP_CertificateOfCompletion",
+        "topics" : ["Naming variables","Storing text as strings","Doing calculations with PHP","Using conditional statements to make decisions","Creating custom functions","Deciphering error messages","Emailing the contents of an online form","Dealing with multiple-choice form fields"]
     },{
-    "id" : "10",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "10",
+        "link" : "https://www.lynda.com/PHP-tutorials/PHP-MySQL-Essential-Training-1-Basics/587674-2.html",
+        "title" : "PHP with MySQL Essential Training: 1 The Basics",
+        "author" : "Kevin Skoglund",
+        "authorimage" : "104_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Kevin-Skoglund/104-1.html",
+        "introduction" : "<p>PHP is a popular programming language and the foundation of many smart, data-driven websites. This comprehensive course from Kevin Skoglund helps developers learn to use PHP to build interconnected webpages with dynamic content which can pass data between pages. Learn how PHP can simplify the creation of forms, read and validate form data, and display errors. Kevin also covers the fundamentals of MySQL and how to use PHP to efficiently and securely interact with a database to store and retrieve data. Throughout the course, he provides practical advice and offers examples of best practices.</p>",
+        "certificate" : "PHPwithMySQLEssentialTraining-1TheBasics_CertificateOfCompletion",
+        "topics" : ["Organizing project files","Including and requiring files","Working with URL parameters","Encoding dynamic content","Modifying headers and page redirection","Creating forms and processing form data","MySQL basics","Using PHP to access database tables","Creating, reading, updating, and deleting database records with PHP","Validating data","Preventing SQL injection"]
     },{
-    "id" : "11",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "11",
+        "link" : "https://www.lynda.com/MySQL-tutorials/PHP-MySQL-Essential-Training-2-Build-CMS/587675-2.html",
+        "title" : "PHP with MySQL Essential Training: 2 Build a CMS",
+        "author" : "Kevin Skoglund",
+        "authorimage" : "104_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Kevin-Skoglund/104-1.html",
+        "introduction" : "<p>This course—the second installment in a series—builds on the fundamentals of PHP with MySQL and teaches the intermediate concepts necessary to develop real-world web applications while creating a working content management system. Kevin Skoglund shows how to create dynamic navigation to allow public users to browse different pages of database-driven content. He demonstrates how to hide content from the public and to write functions which are context-sensitive and use argument options for conditional behavior. He shows how to implement user authentication and utilize PHP's built-in password functions to securely regulate page access. Finally, he shows how related database tables can become nested resources by modifying and scoping functions. Along the way, Kevin provides practical advice and offers examples of best practices.</p>",
+        "certificate" : "PHPwithMySQLEssentialTraining-2BuildaCMS_CertificateOfCompletion",
+        "topics" : ["Creating a content management system","Building dynamic content navigation","Using context and function options for conditional behavior","Hiding content from the public view","Insecure direct object reference","Allowing HTML in dynamic content","Previewing content in the public context","Working with cookies and sessions","Storing status messages in the session","Secure user authentication (login/logout)","Regulating page access","Nesting related resources","Managing an ordered list automatically"]
     },{
-    "id" : "12",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "12",
+        "link" : "https://www.lynda.com/Web-Development-tutorials/Foundations-Programming-Web-Security/133330-2.html",
+        "title" : "Programming Foundations: Web Security",
+        "author" : "Kevin Skoglund",
+        "authorimage" : "104_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Kevin-Skoglund/104-1.html",
+        "introduction" : "<p>Learn about the most important security concerns when developing websites, and what you can do to keep your servers, software, and data safe from harm. Instructor Kevin Skoglund explains what motivates hackers and their most common methods of attacks, and then details the techniques and mindset needed to craft solutions for these web security challenges. Learn the eight fundamental principles that underlie all security efforts, the importance of filtering input and controlling output, and smart strategies for encryption and user authentication. Kevin also covers special considerations when it comes to credit cards, regular expressions, source code managers, and databases.</p><p>This course is great for developers who want to secure their client's websites, and for anyone else who wants to learn more about web security.</p>",
+        "certificate" : "ProgrammingFoundations-WebSecurity_CertificateOfCompletion",
+        "topics" : ["Why security matters","What is a hacker?","How to write a security policy","Cross-site scripting (XSS)","Cross-site request forgery (CSRF)","SQL injection","Session hijacking and fixation","Passwords and encryption","Secure credit card payments"]
     },{
-    "id" : "13",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "13",
+        "link" : "https://www.lynda.com/Ruby-Rails-tutorials/Ruby-Rails-5-Essential-Training/500551-2.html",
+        "title" : "Ruby on Rails 5 Essential Training",
+        "author" : "Kevin Skoglund",
+        "authorimage" : "104_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Kevin-Skoglund/104-1.html",
+        "introduction" : "<p>Learn how to create full-featured, object-oriented web applications with the latest version of the popular, open-source Ruby on Rails framework. Ruby on Rails 5 Essential Training covers the essential features of the framework, along with best practices and real-world development techniques, resulting in a complete application with dynamic, database-driven content. Follow along to build your own version of the example project, a data-driven content management system, while you learn how to route browser requests, structure databases, render pages with dynamic content, process and validate form data, and configure authentication. Instructor Kevin Skoglund, founder of web development agency Nova Fabrica, also introduces the design principles of CRUD and helps you master Rail's built-in helpers. By the end of the course, you should be able to use Ruby on Rails to build robust web applications that are both easy to scale and maintain.</p>",
+        "certificate" : "RubyonRails5EssentialTraining_CertificateOfCompletion",
+        "topics" : ["Creating and configuring a new Ruby on Rails project","Generating controllers and views","Handling server requests","Using different types of routes","Rendering and viewing templates","Generating migrations and models","Creating, updating, and deleting records","Finding records with queries","Understanding relationship types","Writing controllers for CRUD","Working with layouts and helpers","Managing application assets","Building forms","Validating data","Authenticating users"]
     },{
-    "id" : "14",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "14",
+        "link" : "https://www.lynda.com/Web-Design-tutorials/Web-Project-Workflows-Gulp-js-Git-Browserify/154416-2.html",
+        "title" : "Gulp.js, Git, and Browserify: Web Project Workflows",
+        "author" : "Ray Villalobos",
+        "authorimage" : "832401_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Ray-Villalobos/832401-1.html",
+        "introduction" : "<p>Modern front-end development means more than just writing HTML, CSS, and JavaScript. Developing an efficient workflow will help you write better code and test and deploy your web applications easily and efficiently. Staff author Ray Villalobos is here to show you how to generate a workflow that makes it easier to build websites with processed languages like Sass, Compass, and CoffeeScript. He'll show how to automate development and production versions of your sites, track and share project files with Git and GitHub, and add libraries like jQuery and Mustache.js with Browserify. All of these techniques should easily translate to building your own web projects.</p>",
+        "certificate" : "GulpjsGitandBrowserify-WebProjectWorkflows_CertificateOfCompletion",
+        "topics" : ["Why workflow management?","Processing tasks with gulp-coffee","Importing libraries with Browserify","Processing Sass and Compass","Issuing tasks in sequence","Watching changes to files","Adding static reloads","Setting up environment variables","Minifying HTML","Compressing images"]
     },{
-    "id" : "15",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "15",
+        "link" : "https://www.lynda.com/Node-js-tutorials/Node-js-Essential-Training/417077-2.html",
+        "title" : "Node.js Essential Training",
+        "author" : "Alex Banks ",
+        "authorimage" : "4865699_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Alex-Banks/4865699-1.html",
+        "introduction" : "<p>Node.js is a powerful tool for controlling servers, building web applications, and creating event-driven programs. And it takes JavaScript—a language familiar to all web developers—out of the browser. With Node.js, you can build applications that run on your laptop or even the cloud. Learn the essentials of Node.js and start creating your own JavaScript applications in this introductory training course.</p><p>Alex Banks shows how to install Node.js on a Mac or PC and work with the Node.js core: the global object, event loop, http module, and file system. Then he covers reading and writing data, streaming data, making http requests, and working with the node package manager (npm). In the final chapters, he shows how to start sessions on web servers, communicate with web servers and clients with WebSockets, use the Express framework to develop applications, and test and debug Node.js code. Want to speed up your Node.js workflow? Check out the tutorials on automating tasks with Grunt and npm scripts.</p>",
+        "certificate" : "NodejsEssentialTraining_CertificateOfCompletion",
+        "topics" : ["What is Node.js?","Installing Node.js","Understanding the global object and global timing","Importing the core modules","Handling events","Creating child processes","Reading, writing, and removing files","Working with file streams","Making http requests","Serving files and JSON data","Installing npm, the node package manager","Working with Express, the web server framework","Using WebSockets","Testing and debugging Node.js code","Working with Grunt and Browserify","Automating tasks with npm scripts"]
     },{
-    "id" : "16",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "16",
+        "link" : "https://www.lynda.com/Express-js-tutorials/Building-Website-Node-js-Express-js/502310-2.html",
+        "title" : "Building a Website with Node.js and Express.js",
+        "author" : "Ray Villalobos",
+        "authorimage" : "832401_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Ray-Villalobos/832401-1.html",
+        "introduction" : "<p>Interested in building JavaScript websites that do more? Node.js and Express.js are a perfect match. Express is a fast, minimalist framework that sits on top of Node.js and allows you to build powerful single- and multi-page web applications and websites.</p><p>In this course, Ray Villalobos walks through the process of creating full-featured websites with these technologies. First, find out how to install each package and leverage Node.js features from within Express. Then learn how to build a basic application with templating engines like EJS; create more flexible, modular code with includes and conditional statements; build APIs to manage HTTP requests to add and delete content dynamically; and configure more complex routing. Along the way, Ray implements features like customer feedback forms and real-time live chat, so you can see exactly what Node.js and Express are capable of.</p>",
+        "certificate" : "BuildingaWebsitewithNodejsandExpressjs_CertificateOfCompletion",
+        "topics" : ["Handling HTTP requests with Node.js and Express","Creating and modularizing routes","Using templates","Building flexible views","Creating an API route","Dealing with POST and DELETE requests","Creating live chat features with Socket.IO"]
     },{
-    "id" : "17",
-    "link" : "",
-    "title" : "",
-    "author" : "",
-    "authorimage" : "",
-    "authorlink" : "",
-    "introduction" : "",
-    "certificate" : "",
-    "topics" : [""]
+        "id" : "17",
+        "link" : "https://www.lynda.com/AngularJS-tutorials/AngularJS-1-Building-Data-Driven-App/534629-2.html",
+        "title" : "AngularJS 1: Building a Data-Driven App",
+        "author" : "Ray Villalobos",
+        "authorimage" : "832401_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Ray-Villalobos/832401-1.html",
+        "introduction" : "<p>Want to create data-driven web applications? AngularJS is a great choice. It allows you to build apps where multiple users can push and pull data at the same time, in real time. However, while the framework is easy to learn, it can be tough to master. This course is the second in a two-part series designed to show you how Angular works in the real world. It takes up where AngularJS 1: Adding Registration to Your Application left off: a simple application that checks users in and out of meetings. Here, instructor and Angular advocate Ray Villalobos shows how to enhance the existing app with new views and controllers to reward random checked-in users with prizes.</p><p>Learn how to create forms, edit database records, create methods, randomize record selections, and style and secure your app. With these project-based lessons, you'll learn how to see how data-driven programming with AngularJS can help your apps react to real-time data streams.</p>",
+        "certificate" : "AngularJS1-BuildingaData-DrivenApp_CertificateOfCompletion",
+        "topics" : ["Customizing an Angular template","Adding forms to create meetings and check in users","Adding, showing, and deleting database records","Using events to track meetings","Adding a form to the app","Creating methods","Randomizing prizes","Creating conditional styles","Managing app permissions"]
     }]
+    },{
+    "id" : "2",
+    "title" : "Become a Python Developer",
+    "courses" : [{ 
+        "id" : "1",
+        "link" : "https://www.lynda.com/Python-tutorials/Up-Running-Python/122467-2.html",
+        "title" : "Learning Python",
+        "author" : "Joe Marini",
+        "authorimage" : "85_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Joe-Marini/85-1.html",
+        "introduction" : "<p>Get a quick intro to Python, the popular and highly readable object-oriented language. Joe Marini provides an overview of the installation process, basic Python syntax, and an example of how to construct and run a simple Python program. Learn to work with dates and times, read and write files, and retrieve and parse HTML, JSON, and XML data from the web.</p>",
+        "certificate" : "LearningPython_CertificateOfCompletion",
+        "topics" : ["Installing Python","Choosing an editor/IDE","Working with variables and expressions","Writing loops","Using the date, time, and datetime classes","Reading and writing files","Fetching Internet data","Parsing and processing HTML"]
+    },{
+        "id" : "2",
+        "link" : "https://www.lynda.com/Python-tutorials/Code-reuse/418249/459112-4.html",
+        "title" : "Programming Foundations: Real-World Examples",
+        "author" : "Barron Stone",
+        "authorimage" : "2899019_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Barron-Stone/2899019-1.html",
+        "introduction" : "<p>Understanding core programming concepts and why they are used is just as important as knowing how to write code. New programmers need to learn to bridge the gap: to connect the theory to practice. This series of training videos explains basic programming concepts by relating them to real-life objects, actions, and scenarios. Each video will focus on a different analogy, mixing live action with segments that demonstrate the concepts in code. For example, Barron Stone connects functions to recipes, lists to parking spaces, and loops to that perpetual chore: dishwashing. He illustrates most of the examples using Python, but you can follow along in any language you choose. Start watching and learn about...</p>",
+        "certificate" : "ProgrammingFoundations-Real-WorldExamples_CertificateOfCompletion",
+        "topics" : ["Local vs. global variables","Creating and naming custom objects","Class inheritance","Modules and packages","Multidimensional lists and tuples","Queues and stacks","Creating and combining sets","Storing data in dictionaries","If/else and switch statements","For vs. while loops","Error handling","Polling and event-driven programming"]
+    },{
+        "id" : "3",
+        "link" : "https://www.lynda.com/Python-tutorials/Welcome/62226/70920-4.html",
+        "title" : "Python 3 Essential Training",
+        "author" : "Bill Weinman",
+        "authorimage" : "23_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Bill-Weinman/23-1.html",
+        "introduction" : "<p>Due to its power, simplicity, and complete object model, Python has become the scripting language of choice for many large organizations, including Google, Yahoo, and IBM. In Python 3 Essential Training, Bill Weinman demonstrates how to use Python 3 to create well-designed scripts and maintain existing projects. This course covers the basics of the language syntax and usage, as well as advanced features such as objects, generators, and exceptions. Example projects include a normalized database interface and a complete working CRUD application. Exercise files accompany the course.</p>",
+        "certificate" : "",
+        "topics" : ["A Python 3 quick start for experienced developers","Creating functions and objects","Using Python's built-in objects and classes","Repeating code with loops and iterators","Understanding and using conditional expressions","Creating sequences with generators","Reusing code with objects and libraries","Handling errors with exceptions"]
+    },{
+        "id" : "4",
+        "link" : "https://www.lynda.com/Tkinter-tutorials/Python-GUI-Development-Tkinter/163607-2.html",
+        "title" : "Python GUI Development with Tkinter",
+        "author" : "Barron Stone",
+        "authorimage" : "2899019_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Barron-Stone/2899019-1.html",
+        "introduction" : "<p>Put an end to writing command-line interfaces for your programs. Use Tkinter, the Python package for creating themed interface elements with the Tk GUI toolkit. Join Barron Stone in this course as he walks through the most popular Tk widgets and shows you how to customize their appearance and behavior to fit your application. You'll learn how to manage the placement of those widgets on the GUI and make them react to user behavior with event-driven code. The final chapter takes you through the entire start-to-finish process of building the user interface for an application, so you can see how all of these techniques work in a real-world development scenario.</p>",
+        "certificate" : "",
+        "topics" : ["Installing Python 3 and Tcl/Tk for Mac or Windows","Creating and configuring themed Tk widgets","Decorating the GUI with text labels and images","Capturing input from buttons, menus, and entry fields","Presenting choices with check boxes and radio buttons","Using geometry managers to lay out the GUI","Organizing widgets inside of frames and windows","Handling user actions with event-driven programming","Creating a simple drawing tool with the Canvas","Prompting users with pop-up dialog boxes"]
+    },{
+        "id" : "5",
+        "link" : "https://www.lynda.com/Python-tutorials/Code-Clinic-Python/163752-2.html",
+        "title" : "Code Clinic: Python",
+        "author" : "Barron Stone",
+        "authorimage" : "2899019_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Barron-Stone/2899019-1.html",
+        "introduction" : "<p>Many successful programmers know more than just a computer language. They also know how to think about solving problems. They use  &quot;computational thinking &quot;: breaking a problem down into segments that lend themselves to technical solutions. Code Clinic is a series of six courses where lynda.com authors solve the same problems using different programming languages. Here, Barron Stone works with Python.</p><p>Barron introduce challenges and provides an overview of his solutions in Python. Challenges include topics such as statistical analysis, searching directories for images, and accessing peripheral devices.</p><p>Visit other courses in the series to see how to solve the exact same challenges in languages like C#, C++, Java, PHP, and Ruby.</p>",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "6",
+        "link" : "https://www.lynda.com/Django-tutorials/Up-Running-Python-Django/386287-2.html",
+        "title" : "Learning Python and Django",
+        "author" : "Caleb Smith",
+        "authorimage" : "4062129_250x250_thumb.jpg",
+        "authorlink" : "https://www.lynda.com/Caleb-Smith/4062129-1.html",
+        "introduction" : "<p>With Django, you can take web applications from concept to launch in a matter of hours. It's a free and open-source framework that's designed on top of Python and supports data-driven architecture. Learn what you need to know to get up and running with Django with these tutorials from author Caleb Smith. Caleb walks through creating a brand-new Django project, defining a data model and fields, querying the database, and using Django's built-in URL handlers, views, and templates to structure the rest of the backend. Plus, learn how to incorporate CSS and JavaScript to enhance the style and usability of your Django projects.</p>",
+        "certificate" : "",
+        "topics" : ["Creating a new Django project","Defining Django models and fields","Querying data with the Django ORM","Building views and templates","Integrating CSS and JavaScript"]
+    }]
+    },{
+    "id" : "3",
+    "title" : "Become a Cloud Developer",
+    "courses" : [{ 
+        "id" : "1",
+        "link" : "",
+        "title" : "Learning Cloud Computing: Core Concepts",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+       
+    },{
+        "id" : "2",
+        "link" : "",
+        "title" : "Planning a Microsoft Cloud Solution",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "3",
+        "link" : "",
+        "title" : "Google Cloud Platform Essential Training",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]   
+    },{
+        "id" : "4",
+        "link" : "",
+        "title" : "Learning Cloud Data Storage",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "5",
+        "link" : "",
+        "title" : "Cybersecurity with Cloud Computing",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "6",
+        "link" : "",
+        "title" : "Google Cloud Storage and Data Essential Training",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "7",
+        "link" : "",
+        "title" : "Google Cloud Compute Engine Essential Training",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "8",
+        "link" : "",
+        "title" : "Learning Cloud Service APIs",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "9",
+        "link" : "",
+        "title" : "Microsoft Azure: Core Functionalities",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "10",
+        "link" : "",
+        "title" : "Cloud Computing Career Paths and Certifications: First Steps",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    }]
+    },{
+    "id" : "4",
+    "title" : "Become a Software Quality Assurance Engineer",
+    "courses" : [{
+        "id" : "1",
+        "link" : "",
+        "title" : "Programming Foundations: Software Quality Assurance",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]     
+    },{
+        "id" : "2",
+        "link" : "",
+        "title" : "Insights on Software Quality Engineering ",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "3",
+        "link" : "",
+        "title" : "Project Management Foundations: Quality",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "4",
+        "link" : "",
+        "title" : "Java: Testing with JUnit",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "5",
+        "link" : "",
+        "title" : "Learning Python Web Penetration Testing",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "6",
+        "link" : "",
+        "title" : "Advanced Selenium: Testing Tools",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "7",
+        "link" : "",
+        "title" : "Android App Development: Unit Testing",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    }]
+    },{
+    "id" : "5",
+    "title" : "Master In-Demand Skills for Technology Leadership",
+    "courses" : [{
+        "id" : "1",
+        "link" : "",
+        "title" : "Achieving Your Goals",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]     
+    },{
+        "id" : "2",
+        "link" : "",
+        "title" : "Building Resilience",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "3",
+        "link" : "",
+        "title" : "Getting Things Done",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "4",
+        "link" : "",
+        "title" : "Critical Thinking",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "5",
+        "link" : "",
+        "title" : "Teamwork Foundations",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "6",
+        "link" : "",
+        "title" : "Connecting with Peers in the Workplace",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "7",
+        "link" : "",
+        "title" : "Communication",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "8",
+        "link" : "",
+        "title" : "Building Trust",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "9",
+        "link" : "",
+        "title" : "Effective Listening",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "10",
+        "link" : "",
+        "title" : "Writing in Plain English",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "11",
+        "link" : "",
+        "title" : "Creativity Bootcamp",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    }]
+    },{
+    "id" : "6",
+    "title" : "Become an Instructional Developer",
+    "courses" : [{
+        "id" : "1",
+        "link" : "",
+        "title" : "Learning SCORM and Tin Can API",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]    
+    },{
+        "id" : "2",
+        "link" : "",
+        "title" : "Learning Management Systems (LMS) Quick Start",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "3",
+        "link" : "",
+        "title" : "Gamification of Learning",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "4",
+        "link" : "",
+        "title" : "Teaching Techniques: Creating Multimedia Learning",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "5",
+        "link" : "",
+        "title" : "Introduction to Screencasting",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "6",
+        "link" : "",
+        "title" : "Captivate 9 Essential Training",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "7",
+        "link" : "",
+        "title" : "Teaching Techniques: Blended Learning",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "8",
+        "link" : "",
+        "title" : "Teaching Techniques: Making Accessible Learning",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "9",
+        "link" : "",
+        "title" : "Camtasia Studio 8 Essential Training",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    },{
+        "id" : "10",
+        "link" : "",
+        "title" : "Learning Articulate Storyline 2",
+        "author" : "",
+        "authorimage" : "",
+        "authorlink" : "",
+        "introduction" : "",
+        "certificate" : "",
+        "topics" : [""]
+    }]
+}]    
 }

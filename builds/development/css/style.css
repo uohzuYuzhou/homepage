@@ -58,6 +58,11 @@ header{
 	right: 0;
 }
 
+.b-left: {
+	position: absolute;
+	/*bottom: 0;*/
+	left: 8px;
+}
 
 footer{
 	text-align: center;
@@ -135,12 +140,17 @@ p + h3{
 	overflow: auto;
 }
 
-.education .content-wrap a{
+.content-wrap a{
+	color: red;
+}
+
+
+#training a{
 	text-decoration: none;
 	color: black;
 }
 
-.education .content-wrap a:hover{
+#training a:hover{
 	color: red;
 }
 
@@ -160,6 +170,20 @@ p + h3{
 	/*float: left;*/
 	margin: 30px;
 }
+
+.author-img{
+	width: 120px;
+	border-radius: 50%;
+
+	/*text-align: center;*/
+	/*float: left;*/
+	/*margin: 30px;*/
+}
+
+.author-img a{
+	text-align: center;
+}
+
 
 /*.colum-wide{
 	width: 70%;

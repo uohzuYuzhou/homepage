@@ -7,19 +7,40 @@
 	<title>Zhou Yu | Resume</title>
 	<link rel="icon" type="image/jpg" href="image/icon2.jpg">
 	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
 	
 	<script src="js/4581c15c83.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
 	<!-- <script src="js/bootstrap.min.js"></script>		 -->
 	<link href='http://fonts.font.im/css?family=Caveat|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- <link href="font/Caveat-Regular.ttf" rel="stylesheet" type="text/css"> -->
 	<!-- <link href="font/Caveat-Regular.ttf" rel="stylesheet" type="text/css"> -->
-	
+	<script type="text/javascript">
+		var trainingcontent = "";
+		$.getJSON("data/data.json", function(result){
+      		$.each(result, function(i, paths){
+      			trainingcontent += "<ul>";
+      			$.each(paths, function(j, path){
+      				trainingcontent += "<li><h3>" + path.title + "</h3></li>";
+      				trainingcontent += "<ul>";
+      				$.each(path.courses, function(k, course){
+      					trainingcontent += "<li><a href=\"training.html?pathid=" + path.id + "&courseid=" +course.id+ "\" target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Check Traning Detail and Certificate\">"+ course.title +"</a></li>";
+      					// $("p").append("<li>"+ course.title + "</li>");
+     				});
+     				trainingcontent += "</ul><br>";
+ 				});
+ 				trainingcontent += "</ul>";
+ 			});
+ 			$("#training").append(trainingcontent);
+ 			// console.log(trainingcontent);
+ 		});
+	</script>
 	
 </head>
 <body>
 	<header id="biography">
-		<a class="dl b-right" href="/file/Resume-ZhouYu-8613940926364.pdf" open target="_Blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;Download Resume</a>
+		<a class="dl b-right" href="/file/Resume-ZhouYu-8613940926364.pdf" open target="_Blank" data-toggle="tooltip" data-placement="bottom" title="Click to Download My Resume"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;Download Resume</a>
 		<nav>
 			<a href="#biography" id="AB" onclick="paint('AB')" data-toggle="tooltip" data-placement="bottom" title="Biography">About Me</a>
 			<a href="#work" id="WE" onclick="paint('WE')" data-toggle="tooltip" data-placement="bottom" title="Experience">Work Experience</a>
@@ -33,12 +54,14 @@
 			</div>
 			<div class="colum-wide">
 				<h1>Zhou Yu</h1>
-				<h2>Development Tester + Automation Developer</h2>
+				<h2 style="text-align: center;">Development Tester + <br>Automation Developer</h2>
 				<p>As a communication engineer by profession, I currently associated with <em><strong>Intel Corporation</strong></em>.&nbsp;Having 
 				worked in the mobile communications industry for over 8 years in organizations like <em><strong>Intel</strong></em>, <em><strong>Huawei</strong></em>, etc. I have gained extensive experience and developed interest in the field of mobile communications and wireless technologies in general. I am also extensively interesting in <a href="http://www.cnblogs.com/zzyzz/" target="_Blank" data-toggle="tooltip" data-placement="left" title="Click to Visit My Blog, Welcome ! "><em><strong>Python</strong></em></a>.</p>
 			</div>
 		</div>		
 	</header>
+
+	<p></p>
 
 	<main>
 		<section class="experience" id="work">
@@ -88,45 +111,18 @@
 		</section>
 
 		<section class="education" id="education">
-			<div class="content-wrap">
+			<div class="content-wrap" id="training">
 				<h2>Education</h2>
 
-				<h3>Become a Full-Stack Web Developer, Online Certificate, 2017</h3>
-				<!-- <p>Become a Full-Stack Web Developer, 2017</p> -->
-				<ul>
-					<li>Programming Foundations: Fundamentals</li>
-					<li>Web Development Foundations: Full-Stack vs Front-End</li>
-					<li>CSS Essential Training 1</li>
-					<li>CSS Essential Training 2</li>
-					<li>Programming Foundations: Databases</li>
-					<li>JavaScript Essential Training</li>
-					<li>Installing Apache, MySQL, and PHP</li>
-					<li>Learning PHP</li>
-					<li>PHP Essential Training</li>
-					<li>PHP with MySQL Essential Training: 1 The Basics</li>
-					<li>PHP with MySQL Essential Training: 2 Build a CMS</li>
-					<li>Programming Foundations: Web Security</li>
-					<li>Ruby on Rails 5 Essential Training</li>
-					<li>Gulp.js, Git, and Browserify: Web Project Workflows</li>
-					<li>Node.js Essential Training</li>
-					<li>Building a Website with Node.js and Express.js</li>
-					<li>AngularJS 1: Building a Data-Driven App</li>
-				</ul>
-
-				<h3>Ongoing Training&nbsp;(certificates will completed by the end of 2017)</h3>
-				<ul>
-					<li>Become a Python Developer</li>
-					<li>Become a Cloud Developer</li>
-					<li>Become a Software Quality Assurance Engineer</li>
-					<li>Master In-Demand Skills for Technology Leadership</li>
-					<li>Become an Instructional Developer</li>
-
-				</ul>				
-					
 				<h3>Dalian Jiaotong University</h3>
-				<p>BSC of Communciation Engineering, 2005-2009</p>
+					<p>BSC of Communciation Engineering, 2005-2009</p>
 
 				<h3><a href="image/IELTS_Report.jpg" target="_Blank" data-toggle="tooltip" data-placement="left" title="Click to Check My IELTS Test Report">English Proficiency: IELTS(A) Overall-6.5</a></h3>
+					<p></p>
+
+				<h3>Training and Certificates</h3>
+				
+																				
 			</div>
 		</section>
 
