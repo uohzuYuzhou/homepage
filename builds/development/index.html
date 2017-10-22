@@ -25,7 +25,7 @@
       				trainingcontent += "<li><h3>" + path.title + "</h3></li>";
       				trainingcontent += "<ul>";
       				$.each(path.courses, function(k, course){
-      					trainingcontent += "<li><a href=\"training.html?pathid=" + path.id + "&courseid=" +course.id+ "\" target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Check Traning Detail and Certificate\">"+ course.title +"</a></li>";
+      					trainingcontent += "<li><a href=\"training.html?pathid=" + path.id + "&courseid=" +course.id+ "#training\" target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Check Traning Detail and Certificate\">"+ course.title +"</a></li>";
       					// $("p").append("<li>"+ course.title + "</li>");
      				});
      				trainingcontent += "</ul><br>";

@@ -1,58 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- <script src="https://use.fontawesome.com/4581c15c83.js"></script> -->
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zhou Yu | Resume</title>
-	<link rel="icon" type="image/jpg" href="image/icon2.jpg">
-	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
-	
-	
+	<link rel="icon" type="image/jpg" href="image/icon2.jpg">		
 	<script src="js/4581c15c83.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
-	<!-- <script src="js/bootstrap.min.js"></script>		 -->
 	<link href='http://fonts.font.im/css?family=Caveat|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<script type="text/javascript">
-	
-					function GetQueryString(name)
-					{
-					     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-					     var r = window.location.search.substr(1).match(reg);
-					     if(r!=null)return  unescape(r[2]); return null;
-					}
-					var pathid = GetQueryString("pathid");
-					var courseid = GetQueryString("courseid");
-					if (!pathid || !courseid) {
-						window.location = "index.html";
-					}
-					$.getJSON("data/data.json", function(result){
-						var path = result.paths[pathid - 1];
-						var course = path.courses[courseid - 1];
-						if (!path || !course) {
-							window.location = "index.html";
-						}
-						var coursedetail = "";
-						coursedetail += "<center><img class=\"author-img\" src=\"image/" + course.authorimage + "\" alt=\"" + course.author + "\" width=\"100px\"></center>";
-						coursedetail += "<br><center><a href=" + course.authorlink + " target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Know about the Author\"><em><strong>Tutor: " + course.author + "</strong></em></a></center>";
-						coursedetail += "<br><br><a href=" + course.link + " target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Take the Training on Lynda.com\"><h3>Course: " + course.title + "<h3></a>";
-						if (!course.certificate) {
-							course.certificate = "Thanks for Your Visiting. The Training is Ongoing will Update the Detail ASAP !";
-						}
-						coursedetail += "<br><a class=\"b-left\" href=\"file/" + course.certificate + ".pdf\" open target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Check the certification of the Training\">Certification: " + course.certificate + " <i class=\"fa fa-hand-o-left\" aria-hidden=\"true\"></i></a><br><br>";
-						coursedetail += "<h3>Overview:</h3>" + "<ul>" + course.introduction + "</ul>";
-						coursedetail += "<h3>Topics Include:</h3>";
-						coursedetail += "<ul>";
-						$.each(course.topics, function(i, topic){
-							coursedetail += "<li>" + topic + "</li>";
-						});
-						coursedetail += "</ul>";
-						// document.write(coursedetail);
-						$("#training").append(coursedetail);
-					});
-				</script>		
+	<script type="text/javascript">	
+		function GetQueryString(name)
+		{
+		     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+		     var r = window.location.search.substr(1).match(reg);
+		     if(r!=null)return  unescape(r[2]); return null;
+		}
+		var pathid = GetQueryString("pathid");
+		var courseid = GetQueryString("courseid");
+		if (!pathid || !courseid) {
+			window.location = "index.html";
+		}
+		$.getJSON("data/data.json", function(result){
+			var path = result.paths[pathid - 1];
+			var course = path.courses[courseid - 1];
+			if (!path || !course) {
+				window.location = "index.html";
+			}
+			var coursedetail = "";
+			coursedetail += "<center><img class=\"author-img\" src=\"image/" + course.authorimage + "\" alt=\"" + course.author + "\" width=\"100px\"></center>";
+			coursedetail += "<br><center><a href=" + course.authorlink + " target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Know about the Author\"><em><strong>Tutor: " + course.author + "</strong></em></a></center>";
+			coursedetail += "<br><br><a href=" + course.link + " target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Take the Training on Lynda.com\"><h3>Course: " + course.title + "<h3></a>";
+			if (!course.certificate) {
+				course.certificate = "Thanks for Your Visiting. The Training is Ongoing will Update the Detail ASAP !";
+			}
+			coursedetail += "<br><a class=\"b-left\" href=\"file/" + course.certificate + ".pdf\" open target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Check the certification of the Training\">Certification: " + course.certificate + " <i class=\"fa fa-hand-o-left\" aria-hidden=\"true\"></i></a><br><br>";
+			coursedetail += "<h3>Overview:</h3>" + "<ul>" + course.introduction + "</ul>";
+			coursedetail += "<h3>Topics Include:</h3>";
+			coursedetail += "<ul>";
+			$.each(course.topics, function(i, topic){
+				coursedetail += "<li>" + topic + "</li>";
+			});
+			coursedetail += "</ul>";
+			$("#training").append(coursedetail);
+		});
+	</script>		
 </head>
 <body>
 	<header id="biography">
@@ -61,7 +53,6 @@
 			<a href="index.html" id="ED" onclick="paint('ED')" data-toggle="tooltip" data-placement="bottom" title="Homepage">Homepage</a>
 			<a href="#biography" id="AB" onclick="paint('AB')" data-toggle="tooltip" data-placement="bottom" title="Biography">About Me</a>
 			<a href="#training" id="WE" onclick="paint('WE')" data-toggle="tooltip" data-placement="bottom" title="Experience">Training Details</a>
-			<!-- <a href="#education" id="ED" onclick="paint('ED')" data-toggle="tooltip" data-placement="bottom" title="Education">Education</a> -->
 			<a href="#contact" id="CT" onclick="paint('CT')" data-toggle="tooltip" data-placement="bottom" title="Contact Info.">Contact Me</a>
 			<a href="http://www.cnblogs.com/zzyzz/" target="_Blank" data-toggle="tooltip" data-placement="left" title="Click to Visit My Blog, Welcome ! ">My Bolg</a>
 		</nav>
@@ -77,7 +68,6 @@
 			</div>
 		</div>
 	</header>
-
 	<main>
 		<p></p>
 		<section class="experience">
@@ -87,14 +77,12 @@
 			</div>
 		</section>
 		<p></p>
-
 	<footer id="contact">
 		<div class="content-wrap-footer">
 			<section>			
 				<div class="contact-info">		
 					<a href="http://www.cnblogs.com/zzyzz/" target="_Blank" data-toggle="tooltip" data-placement="right" title="Click to Visit My Blog, Welcome ! "><i class="fa fa-hand-o-down" aria-hidden="true"></i><i class="fa fa-hand-o-down" aria-hidden="true"></i><i class="fa fa-hand-o-down" aria-hidden="true"></i><h4>Welcome to Visit My Blog</h4></a>
 				</div>
-
 				<div class="contact-info-font">
 					<a href="mailto:yuzhou85@gmail.com" data-toggle="tooltip" data-placement="top" title="Email Me"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>&nbsp;YUZHOU85@GMAIL.COM</a>
 					<a href="http://www.linkedin.com/in/yu-zhou-79579013b/" target="_Blank" data-toggle="tooltip" data-placement="top" title="Contact Me Via Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true" ></i>&nbsp;LINKEDIN</a>
@@ -104,7 +92,6 @@
 					<a aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Contact Me Via QQ"><i class="fa fa-qq"></i></i>&nbsp;QQ:&nbsp;149098462</a>
 				</div>
 			</section>
-
 			<section>		
 				<script type="text/javascript"> 
 					var date = new Date();
@@ -113,8 +100,7 @@
 				</script>		
 			</section>				
 		</div>
-	</footer>
-		
+	</footer>		
 	</main>
 </body>
 </html>
