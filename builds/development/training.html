@@ -25,10 +25,16 @@
 					}
 					var pathid = GetQueryString("pathid");
 					var courseid = GetQueryString("courseid");
-					var coursedetail = "";
+					if (!pathid || !courseid) {
+						window.location = "index.html";
+					}
 					$.getJSON("data/data.json", function(result){
 						var path = result.paths[pathid - 1];
 						var course = path.courses[courseid - 1];
+						if (!path || !course) {
+							window.location = "index.html";
+						}
+						var coursedetail = "";
 						coursedetail += "<center><img class=\"author-img\" src=\"image/" + course.authorimage + "\" alt=\"" + course.author + "\" width=\"100px\"></center>";
 						coursedetail += "<br><center><a href=" + course.authorlink + " target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Know about the Author\"><em><strong>Tutor: " + course.author + "</strong></em></a></center>";
 						coursedetail += "<br><br><a href=" + course.link + " target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Take the Training on Lynda.com\"><h3>Course: " + course.title + "<h3></a>";
@@ -50,7 +56,7 @@
 </head>
 <body>
 	<header id="biography">
-		<a class="dl b-right" href="/file/Resume-ZhouYu-8613940926364.pdf" open target="_Blank" data-toggle="tooltip" data-placement="bottom" title="Click to Download My Resume"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;Download Resume</a>;
+		<a class="dl b-right" href="/file/Resume-ZhouYu-8613940926364.pdf" open target="_Blank" data-toggle="tooltip" data-placement="bottom" title="Click to Download My Resume"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;Download Resume</a>
 		<nav>
 			<a href="#biography" id="AB" onclick="paint('AB')" data-toggle="tooltip" data-placement="bottom" title="Biography">About Me</a>
 			<a href="#training" id="WE" onclick="paint('WE')" data-toggle="tooltip" data-placement="bottom" title="Experience">Training Details</a>
@@ -64,7 +70,7 @@
 			</div>
 			<div class="colum-wide">
 				<h1>Zhou Yu</h1>
-				<h2>Development Tester + Automation Developer</h2>
+				<h2 style="text-align: center;">Development Tester +  <br>Automation Developer</h2>
 				<p>As a communication engineer by profession, I currently associated with <em><strong>Intel Corporation</strong></em>.&nbsp;Having 
 				worked in the mobile communications industry for over 8 years in organizations like <em><strong>Intel</strong></em>, <em><strong>Huawei</strong></em>, etc. I have gained extensive experience and developed interest in the field of mobile communications and wireless technologies in general. I am also extensively interesting in <a href="http://www.cnblogs.com/zzyzz/" target="_Blank" data-toggle="tooltip" data-placement="left" title="Click to Visit My Blog, Welcome ! "><em><strong>Python</strong></em></a>.</p>
 			</div>
