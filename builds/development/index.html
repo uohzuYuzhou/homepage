@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- <script src="https://use.fontawesome.com/4581c15c83.js"></script> -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Zhou Yu | Resume</title>
+	<title>Zhou Yu | Homepage</title>
 	<link rel="icon" type="image/jpg" href="image/icon2.jpg">
-	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
-	
-	
 	<script src="js/4581c15c83.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
-	<!-- <script src="js/bootstrap.min.js"></script>		 -->
 	<link href='http://fonts.font.im/css?family=Caveat|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- <link href="font/Caveat-Regular.ttf" rel="stylesheet" type="text/css"> -->
-	<!-- <link href="font/Caveat-Regular.ttf" rel="stylesheet" type="text/css"> -->
 	<script type="text/javascript">
 		var trainingcontent = "";
 		$.getJSON("data/data.json", function(result){
@@ -26,17 +19,14 @@
       				trainingcontent += "<ul>";
       				$.each(path.courses, function(k, course){
       					trainingcontent += "<li><a href=\"training.html?pathid=" + path.id + "&courseid=" +course.id+ "#training\" target=\"_Blank\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Click to Check Traning Detail and Certificate\">"+ course.title +"</a></li>";
-      					// $("p").append("<li>"+ course.title + "</li>");
      				});
      				trainingcontent += "</ul><br>";
  				});
  				trainingcontent += "</ul>";
  			});
  			$("#training").append(trainingcontent);
- 			// console.log(trainingcontent);
  		});
-	</script>
-	
+	</script>	
 </head>
 <body>
 	<header id="biography">
@@ -60,9 +50,7 @@
 			</div>
 		</div>		
 	</header>
-
 	<p></p>
-
 	<main>
 		<section class="experience" id="work">
 			<div class="content-wrap">
@@ -94,7 +82,6 @@
 						<li>Continuous Integration and Releases Verification, test logs analysis</li>
 						<li>Maintaining TTCN test case scripts</li>
 					</ul>
-
 				</div>
 				<div class="colum-narrow">
 					<h3>Sunwave</h3>
@@ -110,32 +97,23 @@
 				</div>
 			</div>
 		</section>
-
 		<section class="education" id="education">
 			<div class="content-wrap" id="training">
 				<h2>Education</h2>
-
 				<h3>Dalian Jiaotong University</h3>
 					<p>BSC of Communciation Engineering, 2005-2009</p>
-
 				<h3><a href="image/IELTS_Report.jpg" target="_Blank" data-toggle="tooltip" data-placement="left" title="Click to Check My IELTS Test Report">English Proficiency: IELTS(A) Overall-6.5</a></h3>
-					<p></p>
-
-				<h3>Training and Certificates</h3>
-				
-																				
+				<p></p>
+				<h3>Training and Certificates</h3>																								
 			</div>
 		</section>
-
 		<p></p>
-
 	<footer id="contact">
 		<div class="content-wrap-footer">
 			<section>			
 				<div class="contact-info">		
 					<a href="http://www.cnblogs.com/zzyzz/" target="_Blank" data-toggle="tooltip" data-placement="right" title="Click to Visit My Blog, Welcome ! "><i class="fa fa-hand-o-down" aria-hidden="true"></i><i class="fa fa-hand-o-down" aria-hidden="true"></i><i class="fa fa-hand-o-down" aria-hidden="true"></i><h4>Welcome to Visit My Blog</h4></a>
 				</div>
-
 				<div class="contact-info-font">
 					<a href="mailto:yuzhou85@gmail.com" data-toggle="tooltip" data-placement="top" title="Email Me"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>&nbsp;YUZHOU85@GMAIL.COM</a>
 					<a href="http://www.linkedin.com/in/yu-zhou-79579013b/" target="_Blank" data-toggle="tooltip" data-placement="top" title="Contact Me Via Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true" ></i>&nbsp;LINKEDIN</a>
@@ -145,7 +123,6 @@
 					<a aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Contact Me Via QQ"><i class="fa fa-qq"></i></i>&nbsp;QQ:&nbsp;149098462</a>
 				</div>
 			</section>
-
 			<section>		
 				<script type="text/javascript"> 
 					var date = new Date();
@@ -154,8 +131,7 @@
 				</script>		
 			</section>				
 		</div>
-	</footer>
-		
+	</footer>	
 	</main>
 </body>
 </html>
